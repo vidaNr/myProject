@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "title";
+    src: url("../font/Vazir-Black-FD.eot") format("eot"),
+        url("../font/Vazir-Black-FD.woff") format("woff"),
+        url("../font/Vazir-Black-FD.ttf") format("truetype"),
+        url("../font/Vazir-Black-FD.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Normal";
+    src: url("../font/Vazir-Light-FD.eot") format("eot"),
+        url("../font/Vazir-Light-FD.woff") format("woff"),
+        url("../font/Vazir-Light-FD.ttf") format("truetype"),
+        url("../font/Vazir-Light-FD.woff2") format("woff2");
+}
+@font-face {
+    font-family: "unNormal";
+    src: url("../font/Vazir-Thin-FD.eot") format("eot"),
+        url("../font/Vazir-Thin-FD.woff") format("woff"),
+        url("../font/Vazir-Thin-FD.ttf") format("truetype"),
+        url("../font/Vazir-Thin-FD.woff2") format("woff2");
+}
+.head{
+
+}
+.body{
+    max-width: 1400px;
+}
+div.Icon i svg{
+    display: inline-block;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+}
+div.Icon{
+    text-align: left;
+}
+.verticalLine{
+    -webkit-transform: rotate(90deg);
+    display: inline-block;
+    position: relative;
+    left: -6px;
+    bottom: 14px;
+}
+div.Icon a{
+    display: inline-block;
+    text-decoration: none;
+    font: icon;
+    position: relative;
+    top: -13px;
+    left: -20px;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #2B3467;
+
+}
+div.Icon a:active{
+    color: #2B3467;
+}
+div.Icon a:visited{
+    color: #2B3467;
+}
+div.logIn{
+
+    background-color: #AA77FF;
+    height: 250px;
+    font-family: Normal ;
+    padding: 50px 70px;
+    text-align: center;
+
+}
+div.Register{
+    background-color: #C9EEFF;
+    text-align: center;
+    font-family: Normal;
+    width: 1100px;
+    height: 290px;
+    padding: 30px 0px;
+}
+div.Register p{
+    padding:25px 20px;
+}
+div.Register a{
+    text-decoration: none;
+    background-color: #62CDFF;
+    padding: 10px 20px;
+    color: black;
+}
+div.flex{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+div.floatR , floatL{
+    float: right;
+}
+div.HR{
+    font-family: unNormal;
+    text-align: center;
+    margin: 0px 20px;
+}
+div.it{
+    background-color: #97DEFF;
+    float: right;
+    width: 300px;
+    height: 250px;
+    padding: 6px;
+    margin: 7px;
+    text-align: justify;
+    font-family: unNormal;
+
+}
+table{
+    text-align: center;
+}
+input{
+    font-family: Normal ;
+    text-align: center;
+    width: 350px;
+    display: list-item;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px ;
+    border-color: white;
+    padding: 8px 5px;
+    margin: 8px 4px;
+}
+div.logIn form #sub{
+    background-color: #62CDFF;
+    border-style: solid;
+    border-width: 1px ;
+    border-color: #62CDFF;
+    border-radius: 7px;
+    padding: 8px 50px;
+}
